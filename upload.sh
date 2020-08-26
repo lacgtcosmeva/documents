@@ -4,7 +4,7 @@ for file in documents/*/*; do mv -v "$file" "$(echo $file | sed 's/é/e/g')"; do
 git pull
 git add -A
 git commit -m \"upload.sh $(date)\"
-git push origin master
+git push origin main
 echo -e \"\nappuie sur une touche pour quitter\"
 read
 "
