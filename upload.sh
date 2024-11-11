@@ -6,5 +6,5 @@ git pull --no-edit origin main
 git add -A
 git commit -m "upload.sh $(date)"
 git push origin main
-echo -e "\nappuie sur une touche pour quitter"
-read
+#echo -e "\nappuie sur une touche pour quitter"
+#read
